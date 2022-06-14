@@ -9,7 +9,7 @@ import './css/OpenScreen.module.css';
 const App: Component = () => {
   return (
     <div>
-		<h1 class="center" style="margin-top:55px;">Enota</h1>
+		<h1 class="center" style="margin-top:55px;">Enote</h1>
 
 		<button onClick={
 			() => setScreen("NotesScreen")
