@@ -18,7 +18,8 @@ textarea {
 	color: #FFFFFF;
 	border: none;
 	border-radius: 5px;
-	height: 75vh;
-	width: 50vw;
+	height: 73vh;
+	width: 75vw;
 	text-align: left;
+	font-size: large;
 }
