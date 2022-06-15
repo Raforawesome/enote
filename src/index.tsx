@@ -19,9 +19,9 @@ export const [screen, setScreen] = createSignal("OpenScreen");
 document.addEventListener("contextmenu", event => event.preventDefault());
 
 
-render(() => <NotesScreen />, document.getElementById('root') as HTMLElement);
+// render(() => <OpenScreen />, document.getElementById('root') as HTMLElement);
 // @ts-ignore
-// render(() => <Dynamic component={screens[screen()]} />, document.getElementById('root') as HTMLElement);
+render(() => <Dynamic component={screens[screen()]} />, document.getElementById('root') as HTMLElement);
 
 // setInterval(() => {
 // 	// @ts-ignore
